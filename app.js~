@@ -1,5 +1,0 @@
-var arr = [ 'a', 'b', 'c'];
-arr.unshift('1'); // insert as first item
-console.log(arr); // ['1','a', 'b', 'c']
-console.log(arr.shift()); // remove first item
-console.log(arr); // ['a', 'b', 'c']
