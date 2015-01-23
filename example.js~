@@ -9,8 +9,5 @@ app.get('/user/:username', function (req, res) {
 app.listen('3000') 
 console.log('Example app listening ')
 
-app.get('/user/array', function (req, res) {
-  res.send("array is "+array)
-})
 
 
